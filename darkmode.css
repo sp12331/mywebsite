@@ -1,0 +1,32 @@
+#dark_icon{
+    width: 30px;
+    cursor: pointer;
+}
+#nav ul{
+    flex: 1;
+    text-align: center;
+}
+/* Dark mode styles */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Apply 'dark-mode-text' class to elements whose text color should change with dark mode */
+.dark-mode-text {
+    color: black;
+}
+
+/* Update the dark mode text color */
+.dark-mode .dark-mode-text {
+    color: white;
+}
+/* Additional rule for link text color in dark mode */
+.dark-mode .cta,
+.dark-mode-text .cta {
+    color: white !important;
+}
+.dark-mode .section-title,
+.dark-mode-text .section-title {
+    color: white !important;
+}
